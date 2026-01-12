@@ -29,3 +29,6 @@ dist-ssr
 !.dev.vars.example
 .env*
 !.env.example
+
+# D1 GUI configuration (contains sensitive credentials)
+.d1-gui-config.json

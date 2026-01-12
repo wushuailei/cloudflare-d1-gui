@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "connections": [
+    {
+      "id": "local-dev",
+      "name": "本地开发数据库",
+      "mode": "local",
+      "description": "使用 Worker 绑定的本地数据库"
+    },
+    {
+      "id": "production-example",
+      "name": "生产环境示例",
+      "mode": "remote",
+      "accountId": "your-account-id-here",
+      "apiToken": "your-api-token-here",
+      "databaseId": "your-database-id-here",
+      "description": "线上生产数据库"
+    }
+  ],
+  "activeConnectionId": "local-dev",
+  "settings": {
+    "theme": "light",
+    "autoSave": true,
+    "queryHistory": true,
+    "maxHistoryItems": 50
+  }
+}
